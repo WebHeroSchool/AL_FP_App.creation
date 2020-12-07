@@ -3,33 +3,39 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
-    <title>My site</title>
+    <title>App.creation</title>
     <link href="fonts.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
   </head>
-  <body>
-  	<header>
-  		<div class="logo"></div>
-  		<div class="nav">
-  			<input type="checkbox" name="menu" id="btn-menu">
-  			<label for="btn-menu" class="button">
-  				<div class="button__burger"></div>
-  				<div class="button__burger"></div>
-  				<div class="button__burger"></div>
-  			</label>
-  			<ul>
-  				<li><a href="#" class="nav__link">start</a></li>
-  				<li><a href="#" class="nav__link">services</a></li>
-  				<li><a href="#" class="nav__link">about</a></li>
-  				<li><a href="#" class="nav__link">blog</a></li>
-  				<li><a href="#" class="nav__link">contuct us</a></li>
-  			</ul>
+  <body class="wrap">
+  	<header class="header">
+  		<div class="logo-wrap">
+  			<img src="./images/logo.png" alt="logo" class="logo">
   		</div>
+  		<div class="filler"></div>
+		<div class="nav">
+			<input type="checkbox" name="menu" id="btn-menu">
+			<label for="btn-menu" class="button">
+				<div class="button__burger"></div>
+				<div class="button__burger"></div>
+				<div class="button__burger"></div>
+			</label>
+			<a href="#" class="nav__link">start</a>
+			<a href="#" class="nav__link">services</a>
+			<a href="#" class="nav__link">about</a>
+			<a href="#" class="nav__link">blog</a>
+			<a href="#" class="nav__link">contact us</a>
+		</div>
   	</header>
-  	<main class="section">
-  		<h1 class="section__title">Building an App<br>Without Design<br>Expertise?</h1>
-  		<p class="section__text">I help tech startups design better digital<br>products without hiring a full-time designer</p>
-  		<input type="button" name="info" value="Schedule free consultation" class="section__schedule-button">
-  		<div class="section__pictire"></div>
+  	<main class="main">
+  		<div class="section">
+  			<h1 class="section__title">Building an App<br>Without Design<br>Expertise?</h1>
+  			<p class="section__text">I help tech startups design better digital<br>products without hiring a full-time designer</p>
+  			<button class="section__button">Schedule free consultation</button>
+		</div>
+  		<div class="image">
+  			<img src="./images/img.png" alt="image" class="image__main">
+  		</div>
   	</main>
   	<footer class="footer">
   		<div class="footer__circle"></div>
