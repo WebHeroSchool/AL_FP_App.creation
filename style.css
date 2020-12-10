@@ -26,10 +26,11 @@
 .nav {
 	display: flex;
 	justify-content: space-between;
-	flex: 1;
+	flex: 0.7;
 }
 
 .nav__link {
+	margin: auto 12px;
 	color: #000000;
 	text-decoration: none;
 	font-size: 18px;
@@ -45,15 +46,15 @@ input[type="checkbox"] {
 .main {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	width: 80%;
-	margin: 70px auto;
+	justify-content: space-around;
+	width: 90%;
+	height: 880px;
+	margin: 0 auto;
 }
 
 .section {
 	display: flex;
 	flex-direction: column;
-	width: 567px;
 }
 
 .section__title {
@@ -64,6 +65,7 @@ input[type="checkbox"] {
 	font-family: pt_serifregular;
 	font-weight: bold;
 	line-height: 87px;
+	letter-spacing: 2px;
 }
 
 .background {
@@ -91,7 +93,7 @@ input[type="checkbox"] {
 }
 
 .footer {
-	margin: 40px 0;
+	height: 85px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
