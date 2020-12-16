@@ -92,6 +92,13 @@ input[type="checkbox"] {
 	font-family: robotoregular;
 }
 
+.image__main {
+	background-image: url(./images/img.png);
+	background-position: left bottom;
+	height: 657px;
+	width: 770px;
+}
+
 .footer {
 	height: 85px;
 	display: flex;
